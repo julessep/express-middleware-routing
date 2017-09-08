@@ -8,7 +8,6 @@ router.use(require('./chickens'));
 router.use(require('./eggs'));
 
 router.get('/', function(req, res) {
-  res.render('html/index.html');
   next()
 });
 
